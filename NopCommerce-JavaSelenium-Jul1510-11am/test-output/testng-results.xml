@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="16" passed="16" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-07-27T11:06:06 IST" name="Default suite" finished-at="2023-07-27T11:13:52 IST" duration-ms="465826">
+    <groups>
+    </groups>
+    <test started-at="2023-07-27T11:06:06 IST" name="Default test" finished-at="2023-07-27T11:13:52 IST" duration-ms="465826">
+      <class name="AdminTests.LoginTests">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:AdminTests.LoginTests@333291e3]" started-at="2023-07-27T11:06:06 IST" name="beforeMethod" finished-at="2023-07-27T11:06:14 IST" duration-ms="7885" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="checkTheaddprodectToCartWithoutRegistration()[pri:0, instance:AdminTests.LoginTests@333291e3]" started-at="2023-07-27T11:06:14 IST" name="checkTheaddprodectToCartWithoutRegistration" finished-at="2023-07-27T11:06:38 IST" duration-ms="24262" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkTheaddprodectToCartWithoutRegistration -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:AdminTests.LoginTests@333291e3]" started-at="2023-07-27T11:06:38 IST" name="afterMethod" finished-at="2023-07-27T11:06:39 IST" duration-ms="891" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:AdminTests.LoginTests@333291e3]" started-at="2023-07-27T11:06:39 IST" name="beforeMethod" finished-at="2023-07-27T11:06:45 IST" duration-ms="6191" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="registrationWithOutMandatoryFilds()[pri:0, instance:AdminTests.LoginTests@333291e3]" started-at="2023-07-27T11:06:45 IST" name="registrationWithOutMandatoryFilds" finished-at="2023-07-27T11:06:59 IST" duration-ms="14177" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registrationWithOutMandatoryFilds -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:AdminTests.LoginTests@333291e3]" started-at="2023-07-27T11:06:59 IST" name="afterMethod" finished-at="2023-07-27T11:07:01 IST" duration-ms="1309" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:AdminTests.LoginTests@333291e3]" started-at="2023-07-27T11:07:01 IST" name="beforeMethod" finished-at="2023-07-27T11:07:08 IST" duration-ms="6972" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="toValiateUserCanLogInWithInValidcreds()[pri:0, instance:AdminTests.LoginTests@333291e3]" started-at="2023-07-27T11:07:08 IST" name="toValiateUserCanLogInWithInValidcreds" finished-at="2023-07-27T11:07:12 IST" duration-ms="4391" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- toValiateUserCanLogInWithInValidcreds -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:AdminTests.LoginTests@333291e3]" started-at="2023-07-27T11:07:12 IST" name="afterMethod" finished-at="2023-07-27T11:07:13 IST" duration-ms="948" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:AdminTests.LoginTests@333291e3]" started-at="2023-07-27T11:07:13 IST" name="beforeMethod" finished-at="2023-07-27T11:07:20 IST" duration-ms="7413" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="tryToGiveTheInvalidInputsInCustomerDateofBirth()[pri:0, instance:AdminTests.LoginTests@333291e3]" started-at="2023-07-27T11:07:20 IST" name="tryToGiveTheInvalidInputsInCustomerDateofBirth" finished-at="2023-07-27T11:07:53 IST" duration-ms="32811" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tryToGiveTheInvalidInputsInCustomerDateofBirth -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:AdminTests.LoginTests@333291e3]" started-at="2023-07-27T11:07:53 IST" name="afterMethod" finished-at="2023-07-27T11:07:55 IST" duration-ms="1773" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:AdminTests.LoginTests@333291e3]" started-at="2023-07-27T11:07:55 IST" name="beforeMethod" finished-at="2023-07-27T11:08:05 IST" duration-ms="10574" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="tryToSeeCartprotectWithoutRegister()[pri:0, instance:AdminTests.LoginTests@333291e3]" started-at="2023-07-27T11:08:05 IST" name="tryToSeeCartprotectWithoutRegister" finished-at="2023-07-27T11:08:17 IST" duration-ms="11097" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tryToSeeCartprotectWithoutRegister -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:AdminTests.LoginTests@333291e3]" started-at="2023-07-27T11:08:17 IST" name="afterMethod" finished-at="2023-07-27T11:08:18 IST" duration-ms="994" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:AdminTests.LoginTests@333291e3]" started-at="2023-07-27T11:08:18 IST" name="beforeMethod" finished-at="2023-07-27T11:08:25 IST" duration-ms="7516" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="userCanAbleCheckTheAvailableUserName()[pri:0, instance:AdminTests.LoginTests@333291e3]" started-at="2023-07-27T11:08:25 IST" name="userCanAbleCheckTheAvailableUserName" finished-at="2023-07-27T11:08:32 IST" duration-ms="6857" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userCanAbleCheckTheAvailableUserName -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:AdminTests.LoginTests@333291e3]" started-at="2023-07-27T11:08:32 IST" name="afterMethod" finished-at="2023-07-27T11:08:33 IST" duration-ms="941" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:AdminTests.LoginTests@333291e3]" started-at="2023-07-27T11:08:33 IST" name="beforeMethod" finished-at="2023-07-27T11:08:41 IST" duration-ms="7930" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="userCanAbleSearchTheProtects()[pri:0, instance:AdminTests.LoginTests@333291e3]" started-at="2023-07-27T11:08:41 IST" name="userCanAbleSearchTheProtects" finished-at="2023-07-27T11:09:02 IST" duration-ms="21342" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userCanAbleSearchTheProtects -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:AdminTests.LoginTests@333291e3]" started-at="2023-07-27T11:09:02 IST" name="afterMethod" finished-at="2023-07-27T11:09:05 IST" duration-ms="2948" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:AdminTests.LoginTests@333291e3]" started-at="2023-07-27T11:09:05 IST" name="beforeMethod" finished-at="2023-07-27T11:09:18 IST" duration-ms="12647" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="userCanAbleToAddNewProduct()[pri:0, instance:AdminTests.LoginTests@333291e3]" started-at="2023-07-27T11:09:18 IST" name="userCanAbleToAddNewProduct" finished-at="2023-07-27T11:09:49 IST" duration-ms="31222" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userCanAbleToAddNewProduct -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:AdminTests.LoginTests@333291e3]" started-at="2023-07-27T11:09:49 IST" name="afterMethod" finished-at="2023-07-27T11:09:51 IST" duration-ms="2121" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:AdminTests.LoginTests@333291e3]" started-at="2023-07-27T11:09:51 IST" name="beforeMethod" finished-at="2023-07-27T11:10:02 IST" duration-ms="10433" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="userCanAbleToLogOut()[pri:0, instance:AdminTests.LoginTests@333291e3]" started-at="2023-07-27T11:10:02 IST" name="userCanAbleToLogOut" finished-at="2023-07-27T11:10:16 IST" duration-ms="14552" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userCanAbleToLogOut -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:AdminTests.LoginTests@333291e3]" started-at="2023-07-27T11:10:16 IST" name="afterMethod" finished-at="2023-07-27T11:10:17 IST" duration-ms="1217" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:AdminTests.LoginTests@333291e3]" started-at="2023-07-27T11:10:17 IST" name="beforeMethod" finished-at="2023-07-27T11:10:24 IST" duration-ms="6700" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="userCanCreateTheNewCustomerWithExistingEmailId()[pri:0, instance:AdminTests.LoginTests@333291e3]" started-at="2023-07-27T11:10:24 IST" name="userCanCreateTheNewCustomerWithExistingEmailId" finished-at="2023-07-27T11:10:54 IST" duration-ms="30129" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userCanCreateTheNewCustomerWithExistingEmailId -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:AdminTests.LoginTests@333291e3]" started-at="2023-07-27T11:10:54 IST" name="afterMethod" finished-at="2023-07-27T11:10:56 IST" duration-ms="1554" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:AdminTests.LoginTests@333291e3]" started-at="2023-07-27T11:10:56 IST" name="beforeMethod" finished-at="2023-07-27T11:11:05 IST" duration-ms="9023" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="userCanLinkWithPaypalAccountWithoutRegistration()[pri:0, instance:AdminTests.LoginTests@333291e3]" started-at="2023-07-27T11:11:05 IST" name="userCanLinkWithPaypalAccountWithoutRegistration" finished-at="2023-07-27T11:11:29 IST" duration-ms="24399" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userCanLinkWithPaypalAccountWithoutRegistration -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:AdminTests.LoginTests@333291e3]" started-at="2023-07-27T11:11:29 IST" name="afterMethod" finished-at="2023-07-27T11:11:30 IST" duration-ms="1066" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:AdminTests.LoginTests@333291e3]" started-at="2023-07-27T11:11:30 IST" name="beforeMethod" finished-at="2023-07-27T11:11:36 IST" duration-ms="6269" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="userCanSeeTheOrdersInDashBoardBage()[pri:0, instance:AdminTests.LoginTests@333291e3]" started-at="2023-07-27T11:11:36 IST" name="userCanSeeTheOrdersInDashBoardBage" finished-at="2023-07-27T11:11:54 IST" duration-ms="17278" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userCanSeeTheOrdersInDashBoardBage -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:AdminTests.LoginTests@333291e3]" started-at="2023-07-27T11:11:54 IST" name="afterMethod" finished-at="2023-07-27T11:11:56 IST" duration-ms="1931" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:AdminTests.LoginTests@333291e3]" started-at="2023-07-27T11:11:56 IST" name="beforeMethod" finished-at="2023-07-27T11:12:04 IST" duration-ms="7858" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="userCanSetTheNewVendor()[pri:0, instance:AdminTests.LoginTests@333291e3]" started-at="2023-07-27T11:12:04 IST" name="userCanSetTheNewVendor" finished-at="2023-07-27T11:12:30 IST" duration-ms="26373" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userCanSetTheNewVendor -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:AdminTests.LoginTests@333291e3]" started-at="2023-07-27T11:12:30 IST" name="afterMethod" finished-at="2023-07-27T11:12:31 IST" duration-ms="1326" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:AdminTests.LoginTests@333291e3]" started-at="2023-07-27T11:12:31 IST" name="beforeMethod" finished-at="2023-07-27T11:12:42 IST" duration-ms="10356" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="validateIsAbleToSelectCurrentDateInAddNewCustamorPage()[pri:0, instance:AdminTests.LoginTests@333291e3]" started-at="2023-07-27T11:12:42 IST" name="validateIsAbleToSelectCurrentDateInAddNewCustamorPage" finished-at="2023-07-27T11:13:09 IST" duration-ms="27136" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateIsAbleToSelectCurrentDateInAddNewCustamorPage -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:AdminTests.LoginTests@333291e3]" started-at="2023-07-27T11:13:09 IST" name="afterMethod" finished-at="2023-07-27T11:13:11 IST" duration-ms="2300" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:AdminTests.LoginTests@333291e3]" started-at="2023-07-27T11:13:11 IST" name="beforeMethod" finished-at="2023-07-27T11:13:21 IST" duration-ms="9711" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="verifyAdminIsLoginWithValidCred()[pri:0, instance:AdminTests.LoginTests@333291e3]" started-at="2023-07-27T11:13:21 IST" name="verifyAdminIsLoginWithValidCred" finished-at="2023-07-27T11:13:33 IST" duration-ms="12734" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAdminIsLoginWithValidCred -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:AdminTests.LoginTests@333291e3]" started-at="2023-07-27T11:13:33 IST" name="afterMethod" finished-at="2023-07-27T11:13:35 IST" duration-ms="1542" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:AdminTests.LoginTests@333291e3]" started-at="2023-07-27T11:13:35 IST" name="beforeMethod" finished-at="2023-07-27T11:13:42 IST" duration-ms="6971" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="verifyWithUserCanRegister()[pri:0, instance:AdminTests.LoginTests@333291e3]" started-at="2023-07-27T11:13:42 IST" name="verifyWithUserCanRegister" finished-at="2023-07-27T11:13:50 IST" duration-ms="8200" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyWithUserCanRegister -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:AdminTests.LoginTests@333291e3]" started-at="2023-07-27T11:13:50 IST" name="afterMethod" finished-at="2023-07-27T11:13:52 IST" duration-ms="1402" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- AdminTests.LoginTests -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

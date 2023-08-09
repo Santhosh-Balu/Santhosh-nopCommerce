@@ -1,0 +1,663 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Default_suite" class="navigator-link">
+              <span class="suite-name border-passed">Default suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Default_suite" class="navigator-link ">
+                    <span>C:\Users\SANTHOSH\AppData\Local\Temp\testng-eclipse-1555419017\testng-customsuite.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Default_suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Default_suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Default_suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Default_suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Default_suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Default_suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">16 methods,   16 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Default_suite" class="hide-methods passed suite-Default_suite"> (hide)</a> <!-- hide-methods passed suite-Default_suite -->
+                      <a href="#" panel-name="suite-Default_suite" class="show-methods passed suite-Default_suite"> (show)</a> <!-- show-methods passed suite-Default_suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Default_suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="AdminTests.LoginTests" class="method navigator-link" hash-for-method="checkTheaddprodectToCartWithoutRegistration">checkTheaddprodectToCartWithoutRegistration</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="AdminTests.LoginTests" class="method navigator-link" hash-for-method="registrationWithOutMandatoryFilds">registrationWithOutMandatoryFilds</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="AdminTests.LoginTests" class="method navigator-link" hash-for-method="toValiateUserCanLogInWithInValidcreds">toValiateUserCanLogInWithInValidcreds</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="AdminTests.LoginTests" class="method navigator-link" hash-for-method="tryToGiveTheInvalidInputsInCustomerDateofBirth">tryToGiveTheInvalidInputsInCustomerDateofBirth</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="AdminTests.LoginTests" class="method navigator-link" hash-for-method="tryToSeeCartprotectWithoutRegister">tryToSeeCartprotectWithoutRegister</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="AdminTests.LoginTests" class="method navigator-link" hash-for-method="userCanAbleCheckTheAvailableUserName">userCanAbleCheckTheAvailableUserName</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="AdminTests.LoginTests" class="method navigator-link" hash-for-method="userCanAbleSearchTheProtects">userCanAbleSearchTheProtects</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="AdminTests.LoginTests" class="method navigator-link" hash-for-method="userCanAbleToAddNewProduct">userCanAbleToAddNewProduct</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="AdminTests.LoginTests" class="method navigator-link" hash-for-method="userCanAbleToLogOut">userCanAbleToLogOut</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="AdminTests.LoginTests" class="method navigator-link" hash-for-method="userCanCreateTheNewCustomerWithExistingEmailId">userCanCreateTheNewCustomerWithExistingEmailId</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="AdminTests.LoginTests" class="method navigator-link" hash-for-method="userCanLinkWithPaypalAccountWithoutRegistration">userCanLinkWithPaypalAccountWithoutRegistration</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="AdminTests.LoginTests" class="method navigator-link" hash-for-method="userCanSeeTheOrdersInDashBoardBage">userCanSeeTheOrdersInDashBoardBage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="AdminTests.LoginTests" class="method navigator-link" hash-for-method="userCanSetTheNewVendor">userCanSetTheNewVendor</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="AdminTests.LoginTests" class="method navigator-link" hash-for-method="validateIsAbleToSelectCurrentDateInAddNewCustamorPage">validateIsAbleToSelectCurrentDateInAddNewCustamorPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="AdminTests.LoginTests" class="method navigator-link" hash-for-method="verifyAdminIsLoginWithValidCred">verifyAdminIsLoginWithValidCred</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="AdminTests.LoginTests" class="method navigator-link" hash-for-method="verifyWithUserCanRegister">verifyWithUserCanRegister</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Default_suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Default_suite" class="panel Default_suite">
+          <div class="suite-Default_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">AdminTests.LoginTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkTheaddprodectToCartWithoutRegistration">
+                  </a> <!-- checkTheaddprodectToCartWithoutRegistration -->
+                  <span class="method-name">checkTheaddprodectToCartWithoutRegistration</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="registrationWithOutMandatoryFilds">
+                  </a> <!-- registrationWithOutMandatoryFilds -->
+                  <span class="method-name">registrationWithOutMandatoryFilds</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="toValiateUserCanLogInWithInValidcreds">
+                  </a> <!-- toValiateUserCanLogInWithInValidcreds -->
+                  <span class="method-name">toValiateUserCanLogInWithInValidcreds</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tryToGiveTheInvalidInputsInCustomerDateofBirth">
+                  </a> <!-- tryToGiveTheInvalidInputsInCustomerDateofBirth -->
+                  <span class="method-name">tryToGiveTheInvalidInputsInCustomerDateofBirth</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tryToSeeCartprotectWithoutRegister">
+                  </a> <!-- tryToSeeCartprotectWithoutRegister -->
+                  <span class="method-name">tryToSeeCartprotectWithoutRegister</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="userCanAbleCheckTheAvailableUserName">
+                  </a> <!-- userCanAbleCheckTheAvailableUserName -->
+                  <span class="method-name">userCanAbleCheckTheAvailableUserName</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="userCanAbleSearchTheProtects">
+                  </a> <!-- userCanAbleSearchTheProtects -->
+                  <span class="method-name">userCanAbleSearchTheProtects</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="userCanAbleToAddNewProduct">
+                  </a> <!-- userCanAbleToAddNewProduct -->
+                  <span class="method-name">userCanAbleToAddNewProduct</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="userCanAbleToLogOut">
+                  </a> <!-- userCanAbleToLogOut -->
+                  <span class="method-name">userCanAbleToLogOut</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="userCanCreateTheNewCustomerWithExistingEmailId">
+                  </a> <!-- userCanCreateTheNewCustomerWithExistingEmailId -->
+                  <span class="method-name">userCanCreateTheNewCustomerWithExistingEmailId</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="userCanLinkWithPaypalAccountWithoutRegistration">
+                  </a> <!-- userCanLinkWithPaypalAccountWithoutRegistration -->
+                  <span class="method-name">userCanLinkWithPaypalAccountWithoutRegistration</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="userCanSeeTheOrdersInDashBoardBage">
+                  </a> <!-- userCanSeeTheOrdersInDashBoardBage -->
+                  <span class="method-name">userCanSeeTheOrdersInDashBoardBage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="userCanSetTheNewVendor">
+                  </a> <!-- userCanSetTheNewVendor -->
+                  <span class="method-name">userCanSetTheNewVendor</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateIsAbleToSelectCurrentDateInAddNewCustamorPage">
+                  </a> <!-- validateIsAbleToSelectCurrentDateInAddNewCustamorPage -->
+                  <span class="method-name">validateIsAbleToSelectCurrentDateInAddNewCustamorPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyAdminIsLoginWithValidCred">
+                  </a> <!-- verifyAdminIsLoginWithValidCred -->
+                  <span class="method-name">verifyAdminIsLoginWithValidCred</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyWithUserCanRegister">
+                  </a> <!-- verifyWithUserCanRegister -->
+                  <span class="method-name">verifyWithUserCanRegister</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-passed -->
+        </div> <!-- panel Default_suite -->
+        <div panel-name="test-xml-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\SANTHOSH\AppData\Local\Temp\testng-eclipse-1555419017\testng-customsuite.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Default suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Default test&quot; verbose=&quot;2&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;AdminTests.LoginTests&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Default test --&gt;
+&lt;/suite&gt; &lt;!-- Default suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Default test (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Default_suite');
+function tableData_Default_suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(16);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'tryToGiveTheInvalidInputsInCustomerDateofBirth')
+data.setCell(0, 2, 'AdminTests.LoginTests')
+data.setCell(0, 3, 32811);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'userCanAbleToAddNewProduct')
+data.setCell(1, 2, 'AdminTests.LoginTests')
+data.setCell(1, 3, 31222);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'userCanCreateTheNewCustomerWithExistingEmailId')
+data.setCell(2, 2, 'AdminTests.LoginTests')
+data.setCell(2, 3, 30129);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'validateIsAbleToSelectCurrentDateInAddNewCustamorPage')
+data.setCell(3, 2, 'AdminTests.LoginTests')
+data.setCell(3, 3, 27136);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'userCanSetTheNewVendor')
+data.setCell(4, 2, 'AdminTests.LoginTests')
+data.setCell(4, 3, 26373);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'userCanLinkWithPaypalAccountWithoutRegistration')
+data.setCell(5, 2, 'AdminTests.LoginTests')
+data.setCell(5, 3, 24399);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'checkTheaddprodectToCartWithoutRegistration')
+data.setCell(6, 2, 'AdminTests.LoginTests')
+data.setCell(6, 3, 24262);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'userCanAbleSearchTheProtects')
+data.setCell(7, 2, 'AdminTests.LoginTests')
+data.setCell(7, 3, 21342);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'userCanSeeTheOrdersInDashBoardBage')
+data.setCell(8, 2, 'AdminTests.LoginTests')
+data.setCell(8, 3, 17278);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'userCanAbleToLogOut')
+data.setCell(9, 2, 'AdminTests.LoginTests')
+data.setCell(9, 3, 14552);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'registrationWithOutMandatoryFilds')
+data.setCell(10, 2, 'AdminTests.LoginTests')
+data.setCell(10, 3, 14177);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'verifyAdminIsLoginWithValidCred')
+data.setCell(11, 2, 'AdminTests.LoginTests')
+data.setCell(11, 3, 12734);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'tryToSeeCartprotectWithoutRegister')
+data.setCell(12, 2, 'AdminTests.LoginTests')
+data.setCell(12, 3, 11097);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'verifyWithUserCanRegister')
+data.setCell(13, 2, 'AdminTests.LoginTests')
+data.setCell(13, 3, 8200);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'userCanAbleCheckTheAvailableUserName')
+data.setCell(14, 2, 'AdminTests.LoginTests')
+data.setCell(14, 3, 6857);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'toValiateUserCanLogInWithInValidcreds')
+data.setCell(15, 2, 'AdminTests.LoginTests')
+data.setCell(15, 3, 4391);
+window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 5 minutes</span>
+              <div id="times-div-Default_suite">
+              </div> <!-- times-div-Default_suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">AdminTests.LoginTests</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">checkTheaddprodectToCartWithoutRegistration</span>
+                <span class="method-start">7887 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">32156 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">33048 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">registrationWithOutMandatoryFilds</span>
+                <span class="method-start">39240 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">53419 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">54728 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">toValiateUserCanLogInWithInValidcreds</span>
+                <span class="method-start">61700 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">66093 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">67041 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">tryToGiveTheInvalidInputsInCustomerDateofBirth</span>
+                <span class="method-start">74454 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">107267 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">109040 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">tryToSeeCartprotectWithoutRegister</span>
+                <span class="method-start">119614 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">130713 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">131708 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">userCanAbleCheckTheAvailableUserName</span>
+                <span class="method-start">139224 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">146083 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">147024 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">userCanAbleSearchTheProtects</span>
+                <span class="method-start">154954 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">176306 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">179255 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">userCanAbleToAddNewProduct</span>
+                <span class="method-start">191902 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">223128 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">225250 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">userCanAbleToLogOut</span>
+                <span class="method-start">235684 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">250238 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">251455 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">userCanCreateTheNewCustomerWithExistingEmailId</span>
+                <span class="method-start">258156 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">288287 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">289841 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">userCanLinkWithPaypalAccountWithoutRegistration</span>
+                <span class="method-start">298864 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">323264 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">324331 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">userCanSeeTheOrdersInDashBoardBage</span>
+                <span class="method-start">330600 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">347882 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">349813 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">userCanSetTheNewVendor</span>
+                <span class="method-start">357672 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">384047 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">385373 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validateIsAbleToSelectCurrentDateInAddNewCustamorPage</span>
+                <span class="method-start">395729 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">422868 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">425168 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyAdminIsLoginWithValidCred</span>
+                <span class="method-start">434879 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">447614 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">449157 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyWithUserCanRegister</span>
+                <span class="method-start">456128 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">464329 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>
